@@ -14,6 +14,7 @@ public class TC01_UserRegistration extends BusinessLibrary{
 		try {
 			browserLaunch();
 			navigateToUrl(Util.getProperty("URL"));
+			System.out.println("URL Launched");
 			
 			
 		}catch(Exception e) {
