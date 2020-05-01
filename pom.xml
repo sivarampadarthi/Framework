@@ -93,7 +93,7 @@
 					<configuration>
 
 						<suiteXmlFiles>
-							<suiteXmlFile>${suitexml}</suiteXmlFile>
+							<suiteXmlFile>testNG.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 
