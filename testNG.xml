@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="P1_Regression_Suite">
+	<test name="sbselements_p1">
+		<classes>
+			<class name="TC01_UserRegistration" />
+			</classes>
+	</test> <!-- sbselements_p1 -->
+</suite> <!-- P1_Regression_Suite -->
