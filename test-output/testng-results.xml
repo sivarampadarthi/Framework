@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5692" started-at="2020-04-24T17:27:21 IST" finished-at="2020-04-24T17:27:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5692" started-at="2020-04-24T17:27:21 IST" finished-at="2020-04-24T17:27:26 IST">
+      <class name="TestScripts.TC01_UserRegistration">
+        <test-method status="PASS" signature="initializeWebdriver()[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="initializeWebdriver" is-config="true" duration-ms="1119" started-at="2020-04-24T17:27:19 IST" finished-at="2020-04-24T17:27:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="beforeClass" is-config="true" duration-ms="10" started-at="2020-04-24T17:27:21 IST" finished-at="2020-04-24T17:27:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe1ce85]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="registration" duration-ms="5412" started-at="2020-04-24T17:27:21 IST" finished-at="2020-04-24T17:27:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2020-04-24T17:27:21 IST" finished-at="2020-04-24T17:27:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScripts.TC01_UserRegistration.registration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="afterMethod" is-config="true" duration-ms="248" started-at="2020-04-24T17:27:26 IST" finished-at="2020-04-24T17:27:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration status=SUCCESS method=TC01_UserRegistration.registration()[pri:0, instance:TestScripts.TC01_UserRegistration@e320068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quitReport(org.testng.ITestContext)[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="quitReport" is-config="true" duration-ms="0" started-at="2020-04-24T17:27:26 IST" finished-at="2020-04-24T17:27:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe1ce85]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitReport -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestScripts.TC01_UserRegistration@e320068]" name="afterSuite" is-config="true" duration-ms="32" started-at="2020-04-24T17:27:26 IST" finished-at="2020-04-24T17:27:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestScripts.TC01_UserRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
